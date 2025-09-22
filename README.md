@@ -24,4 +24,4 @@ Pictures retouches v2 est une application web de retouche photo développée ave
 
 L'application est disponible en ligne à l'adresse suivante :
 
-**[Accéder à Pictures retouches v2](https://studio-photo-boosted.streamlit.app)**
+**[Accéder à Pictures retouches v2](https://picturesretouches-v2.streamlit.app/)**
