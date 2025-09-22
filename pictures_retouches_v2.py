@@ -6,7 +6,7 @@ import io, uuid
 from fpdf import FPDF
 from datetime import datetime
 
-st.set_page_config(page_title="Picture Retouche", layout="wide")
+st.set_page_config(page_title="Pictures Retouches", layout="wide")
 st.markdown("<h1 style='text-align: center;'>Pictures Retouches V2</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; font-size: 18px;'>Application web de retouche photo avancée : filtres artistiques, retouche visage, export PDF et historique intelligent.</p>", unsafe_allow_html=True)
 st.markdown("---")
@@ -166,4 +166,5 @@ if uploaded_file:
             for k, v in entry.items():
                 if k not in ["Effet", "Date", "User"]:
                     st.write(f"- {k}: {v}")
+
 
