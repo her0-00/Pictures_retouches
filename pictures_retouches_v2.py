@@ -8,7 +8,7 @@ from datetime import datetime
 
 st.set_page_config(page_title="Pictures Retouches", layout="wide")
 st.markdown("<h1 style='text-align: center;'>Pictures Retouches V2</h1>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center; font-size: 18px;'>Application web gratuite de retouche photo avancée : filtres artistiques, retouche visage et historisation des actions.</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; font-size: 18px;'>Application web gratuite de retouche photo avancée : filtres artistiques, retouche visage et historisation des actions</p>", unsafe_allow_html=True)
 st.markdown("---")
 
 # === Identifiant utilisateur & historique ===
@@ -166,6 +166,14 @@ if uploaded_file:
             for k, v in entry.items():
                 if k not in ["Effet", "Date", "User"]:
                     st.write(f"- {k}: {v}")
+
+
+st.markdown("""
+<hr style="margin-top: 50px;">
+<div style='text-align: center; font-size: 14px; color: gray;'>
+Développé par <strong><a href='https://www.linkedin.com/in/y%C3%A9nam-dossou-a1a877292/' target='_blank' style='color: gray;'>Yenam D.</a></strong> avec l'aide de <strong>Microsoft Copilot</strong> — Pictures Retouches V2 © 2025
+</div>
+""", unsafe_allow_html=True)
 
 
 
